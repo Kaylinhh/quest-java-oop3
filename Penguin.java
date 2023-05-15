@@ -69,7 +69,7 @@ public class Penguin extends Bird implements Swim {
         if (this.swimming && this.depths == 0) {
             System.out.printf("%s gets out of the water.%n", this.getName());
         } else {
-            System.out.printf("%s is too deep, it can't get out.%n", this.getName());
+            System.out.printf("%s is too high, it can't land.%n", this.getName());
         }
     }
 }
